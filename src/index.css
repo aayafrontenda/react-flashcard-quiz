@@ -187,6 +187,15 @@ button.secondary,
   margin-right: 1rem;
 }
 
+.btn, select, input {
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+}
+
+select, input {
+  height: 1.5rem;
+}
+
 button,
 .btn:hover {
   opacity: 0.8;
